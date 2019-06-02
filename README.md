@@ -8,9 +8,10 @@
 A simple application that allows a user to check the type of triangle by keying in the dimensions. Currently it supports checking for isosceles, equilateral and scalene types of triangles.
 
 ## Setup/Installation Requirements
-* clone this repo to your machine
-* cd into TriangleTracker
-* navigate to index.html  and open it on your favorite browser
+* Clone this repo to your machine 
+* `git clone https://github.com/HWaruguru/TriangleTracker.git`
+* `cd into TriangleTracker`
+* Navigate to index.html  and open it on your favorite browser
 Your browser must be JavaScript enabled for this to work
 
 ## Known Bugs
