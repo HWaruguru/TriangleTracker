@@ -8,7 +8,7 @@
   <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 
-<body background="images/image.jpg">
+<body>
   <div class="container">
     <img src="" alt="">
     <div class="title">
@@ -21,7 +21,7 @@
       </p>
     </div>
     <div class="jumbotron">
-      <form id="triangle">
+      <form id="triangle" >
         <div class="form-group">
           <label for="sideOne">Side One:</label>
           <input id="sideOne" type="text"><br>
@@ -30,12 +30,13 @@
           <label for="sideThree">Side Three:</label>
           <input id="sideThree" type="text">
         </div>
-        <button type="submit" class="btn btn-sm btn-primary">What triangle is this?</button>
+        <button onClick="checkTriangle()" class="btn btn-sm btn-primary">What triangle is this?</button>
       </form>
     </div>
 
   </div>
   </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
