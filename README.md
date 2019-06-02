@@ -18,6 +18,7 @@ Your browser must be JavaScript enabled for this to work
 |---------------------------------------------------------------------------------------------|------------|----------------------|
 | A triangle whose sides are equal                                                            | 24, 24, 24 | Equilateral Triangle |
 | A triangle whose two sides are equal                                                        | 24, 34, 34 | Isosceles Triangle   |
+| A triangle whose sides are not equal and the sum of any two sides is greater than the third | 12, 15, 17 | Scalene Triangle     |
 ## Known Bugs
 No known bugs at the moment
 
