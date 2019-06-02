@@ -3,10 +3,11 @@ var isTriangle = function(a, b, c) {
         return "an equilateral";
     } else if (a === b || c === a || b === c) {
         return "an isosceles";
-    } else if (a !== b && b !== c && a !== c) {
-        return "a scalene";
-    } else {
+    } else if (a + b <= c || b + c <= a || a + c <= b) {
         return "not a triangle";
+    } else {
+
+        return "a scalene";
     }
 }
 
