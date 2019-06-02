@@ -1,13 +1,21 @@
-var sides = function(a, b, c) {
-    if (a === b === c) {
-        return "equilateral";
+var isTriangle = function(a, b, c) {
+    if (a === b && b === c && a === c) {
+        return "an equilateral";
     } else if (a === b || c === a || b === c) {
-        return "isosceles";
-    } else if (a !== b !== c) {
-        return "scalene";
+        return "an isosceles";
+    } else if (a !== b && b !== c && a !== c) {
+        return "a scalene";
     } else {
         return "not a triangle";
     }
+}
 
-
+var checkTriangle = function() {
+    event.preventDefault()
+    triForm = document.getElementById('triangle')
+    a = parseInt(triForm.elements.sideOne.value)
+    b = parseInt(triForm.elements.sideTwo.value)
+    c = parseInt(triForm.elements.sideThree.value)
+    console.log(a , b, c)
+    alert("Your triangle is " + isTriangle(a, b, c))
 }
