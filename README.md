@@ -14,9 +14,10 @@ A simple application that allows a user to check the type of triangle by keying 
 * Navigate to index.html  and open it on your favorite browser
 Your browser must be JavaScript enabled for this to work
 ## BDD
-| Behaviour                            | Input      | Expected Results     |
-|--------------------------------------|------------|----------------------|
-| A triangle whose sides are equal     | 24, 24, 24 | Equilateral Triangle |
+| Behaviour                                                                                   | Input      | Expected Results     |
+|---------------------------------------------------------------------------------------------|------------|----------------------|
+| A triangle whose sides are equal                                                            | 24, 24, 24 | Equilateral Triangle |
+| A triangle whose two sides are equal                                                        | 24, 34, 34 | Isosceles Triangle   |
 ## Known Bugs
 No known bugs at the moment
 
